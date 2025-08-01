@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #fff;
+    position: absolute;
+}
+
+.personal-container {
+    width: 900px;
+    height: 900px;
+    margin-left: 250px;
+    margin-top: 20px;
+    display: flex;
+    background: transparent;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.personal-box {
+    width: 70%;
+    height: 900px;
+    margin-left: 100px;
+    border-radius: 20px;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+        5px 5px 15px rgba(0, 0, 0, 0.35),
+        inset -5px -5px 15px rgba(255, 55, 255, 0.2),
+        inset 5px 5px 15px rgba(2, 200, 255, 0.5);
+}
+
+.personal-box h1 {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-main-box {
+    width: 500px;
+    height: auto;
+    margin-left: 60px;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 200px;
+    object-fit: cover;
+
+}
+
+.profile-image label {
+    width: 130px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    margin-left: 180px;
+
+}
+
+.profile-image input {
+    display: none;
+
+}
+
+.personal-input-box {
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+
+}
+
+.personal-input-box input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.personal-input-box p {
+    color: red;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.personal-select-box {
+    width: 100%;
+    height: 80px;
+
+}
+
+.personal-select-box select {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.personal-main-box button {
+    width: 48%;
+    height: 35px;
+    margin-left: 5px;
+}
+.alert {
+    position: absolute;
+    top: 80px;
+    right: 500px;
+    background-color: #f8d7da;
+    color: green;
+    padding: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.error {
+    position: absolute;
+    top: 80px;
+    right: 500px;
+    background-color: #f8d7da;
+    color: red;
+    padding: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+    animation: fadeIn 0.5s ease-in-out;
+
+}

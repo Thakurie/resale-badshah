@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    width: 100%;
+}
+
+.drop-area {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffffff;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    gap: 20px;
+    margin-top: 80px;
+    z-index: 1;
+}
+
+.dropdown {
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+.dropdown:hover,
+.dropdown:hover a,
+.dropdown:hover span {
+    color: skyblue;
+}
+
+.dropdown a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Main dropdown list */
+.dropdown-list {
+    position: absolute;
+    display: none;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.drop:hover .dropdown-list {
+    display: block;
+}
+
+.dropdown-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-list strong {
+    display: block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Dropdown items */
+.dropdown-list li {
+    position: relative;
+}
+
+.dropdown-list li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.dropdown-list li a:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+/* Submenu styles */
+.dropdown-list li ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #ffffff;
+    min-width: 200px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.dropdown-list li:hover>ul {
+    display: block;
+}

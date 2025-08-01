@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #fff;
+    position: absolute;
+}
+
+.signup-container {
+    width: 900px;
+    height: 600px;
+    margin-left: 250px;
+    margin-top: 20px;
+    display: flex;
+    background: transparent;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+
+.signup-image {
+    width: 345px;
+    height: 100%;
+    margin-left: 20px;
+}
+
+
+
+.signup-image img {
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+    animation: anm 1s;
+    margin-top: 50px;
+}
+
+@keyframes anm {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 230px;
+    }
+}
+
+.signup-box {
+    width: 500px;
+    height: 85%;
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+        5px 5px 15px rgba(0, 0, 0, 0.35),
+        inset -5px -5px 15px rgba(255, 55, 255, 0.2),
+        inset 5px 5px 15px rgba(2, 200, 255, 0.5);
+
+
+
+
+}
+
+.signup-box h1 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../gallery/color-scheme-by-seekcolors.png);
+    background-size: cover;
+    background-position: start;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+
+.signup-main-box {
+    width: 90%;
+    height: 230px;
+    margin-left: 30px;
+
+}
+
+.signup-input-box {
+    width: 100%;
+    height: 65px;
+    margin-top: 10px;
+
+
+}
+
+.signup-input {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    border: 1px solid gray;
+}
+
+.signup-input i {
+    width: 10%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    color: #00dfc4;
+    border-right: 1px solid #00dfc4;
+}
+
+.signup-input input {
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+
+.signup-input-box p {
+    width: 100%;
+    font-size: 13px;
+    padding-left: 50px;
+    color: red;
+}
+
+.submit {
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+        5px 5px 15px rgba(0, 0, 0, 0.35),
+        inset -5px -5px 15px rgba(255, 255, 255, 1),
+        inset 5px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.submit:hover {
+    background: rgba(0, 0, 0, 0.537);
+}
+
+.signup-inks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+
+
+}
+
+.signup-inks a {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: sienna;
+    cursor: pointer;
+    text-transform: uppercase;
+}

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #fff;
+    position: absolute;
+    margin-top: 100px;
+    max-width: 100%;
+}
+
+
+.faq-container {
+    max-width: 1260px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px 24px;
+}
+
+.faq-container h1 {
+    text-align: center;
+    color: #00b894;
+    margin-bottom: 32px;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+.main-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.faq-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 500px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+
+.faq {
+    background: #f1f7f9;
+    border-radius: 8px;
+    padding: 20px 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+
+.faq h2 {
+    font-size: 1.2rem;
+    color: #0984e3;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.faq p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.tit {
+    width: 20%;
+    height: 500px;
+    margin-top: 32px;
+    text-align: center;
+    color: #888;
+    font-size: 1.1rem;
+    gap: 30%;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    color: #0984e3;
+}

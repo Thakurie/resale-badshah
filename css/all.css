@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #fff;
+    position: absolute;
+    margin-top: 100px;
+    max-width: 100%;
+}
+
+
+
+
+
+
+/*slide end */
+h1 {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    color: #2ecc71;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-transform: uppercase;
+
+}
+
+/*phone container*/
+.phone-container {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*laptop container*/
+
+.laptop-container {
+    width: 100%;
+    height: 100%;
+}
+
+/* smartwatch*/
+.smartwatch-container {
+    width: 100%;
+    height: 100%;
+}
+
+/*tablet container*/
+.tablet-container {
+    width: 100%;
+    height: 100%;
+}
+
+/*speaker container*/
+.speaker-container {
+    width: 100%;
+    height: 100%;
+}
+
+/*camera container*/
+.camera-container {
+    width: 100%;
+    height: 100%;
+}
+
+/*earbuds container*/
+.earbuds-container {
+    width: 100%;
+    height: 100%;
+}
+
+/*tv container*/
+.tv-container {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/*other container*/
+.other-container {
+    width: 100%;
+    height: 100%;
+
+}
+
+.Box {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+
+
+.card {
+    flex: 0 0 auto;
+    width: 240px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.card:hover {
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+        5px 5px 15px rgba(0, 0, 0, 0.35),
+        inset -5px -5px 15px rgba(255, 55, 255, 0.2),
+        inset 5px 5px 15px rgba(2, 200, 255, 0.5);
+
+}
+
+.card .head {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.head button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.head button.liked {
+    color: #e74c3c;
+}
+
+.image img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.main {
+    padding: 15px;
+}
+
+.title span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.rs {
+    font-size: large;
+    color: #2ecc71;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.old {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.price button {
+    margin-left: auto;
+    background-color: #2ecc71;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.price button a {
+    color: #fff;
+}
+
+.location {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.location i {
+    margin-right: 5px;
+}

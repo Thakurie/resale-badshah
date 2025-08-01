@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 20px;
+    background: #55acee3b;
+}
+
+.footer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-box {
+    width: 20%;
+    height: 350px;
+}
+.footer-logo {
+    width: 40%;
+    height: 350px;
+}
+
+.footer-logo img {
+    width: 500px;
+    height: 200px;
+    background: transparent;
+    object-fit: cover;
+
+}
+
+.footer-box h5 {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: #222222cc;
+    font-weight: 900;
+}
+
+.footer-logo .flow {
+    font-size: 25px;
+    color: #222;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.footer-logo .social-links {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social-links i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.social-links .fa-facebook {
+    color: rgba(0, 0, 255, 0.829);
+}
+
+.social-links .fa-youtube {
+    color: red;
+}
+
+.social-links .fa-square-instagram {
+    color: #962fbf;
+}
+
+.social-links .fa-tiktok {
+    color: black;
+}
+
+.social-links .fa-twitter {
+    color: #55ACEE;
+}
+
+.buttons {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.buttons li {
+    width: 100%;
+    height: 25px;
+    padding-left: 80px;
+}
+
+.buttons li a:hover {
+    background: rgba(128, 128, 128, 0.201);
+}
+
+.buttons li a {
+    color: black;
+    font-size: 14px;
+}
+
+.copy-right {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #22222279;
+    color: black;
+    font-size: 14px;
+}

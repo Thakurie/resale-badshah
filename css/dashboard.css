@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #fff;
+    margin-top: 100px;
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.fav-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.side-container {
+    width: 20%;
+    height: 100vh;
+    display: flex; /* Added missing display */
+    flex-direction: column;
+    align-items: center;
+    background: gray;
+    padding-top: 20px;
+}
+
+.side-container h6 {
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.side-container li {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.side-container li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.side-container li a:hover {
+    color: #00dfc4;
+}
+
+.container-box {
+   width: 80%;
+   height: 100vh;
+   overflow: scroll;
+   overflow-x: hidden;
+   flex-direction: column;
+}
+
+.Box {
+    width: 95%;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
+                5px 5px 15px rgba(0, 0, 0, 0.35);
+    background: #fff;
+    overflow: hidden;
+}
+
+.Box .ob-image {
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Box .title {
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.Box .title p {
+    font-size: 14px;
+    margin-top: 10px;
+    width: 100%;
+    height: 70%;
+}
+
+.Box .seller-info {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Box .seller {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.seller .seller-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.seller label {
+    margin-left: 10px;
+    color: #222;
+}
+
+.pbl {
+    width: 280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pb {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.price {
+    width: 190px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price p {
+    margin-top: 10px;
+    font-size: large;
+    font-weight: 900;
+}
+
+.price .new {
+    color: coral;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price .new strong {
+    color: coral;
+    font-size: 16px;
+}
+
+.price .old {
+    font-size: 16px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button {
+    width: 100px;
+    height: 40px;
+    margin: 10px 0 0 30px;
+    border: none;
+    cursor: pointer;
+    background: #00dfc4;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.buttons button i {
+    font-size: large;
+}
+
+.buttons .fa-regular {
+    color: #222;
+}
+
+.buttons button .fa-heart {
+    color: #e74c3c;
+}
+
+
+.location {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+}
+.alert {
+    position: absolute;
+    top: 80px;
+    right: 500px;
+    background-color: #f8d7da;
+    color: green;
+    padding: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+
+.remove{
+    color: #fff;
+}
